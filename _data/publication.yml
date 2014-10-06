@@ -1,0 +1,72 @@
+- author: Sinong Wang, Xiaohua Tian and Hui Liu
+  image: weroom.png
+  url: /publication/slides/SRH-ICIMCS14.pdf
+  title: Exploiting the Unexploited of Coded Caching for Wireless Content Distribution
+  role: Technical Coach / Product Owner
+  year: 2014, accepted, potential on Best Paper Award
+  pages:
+  publisher:IEEE ICNC
+#  abstract: >
+# Recent studies show that the coded caching technique can facilitate the wireless content distribution by mitigating the wireless traffic volume during the peak-traffic time, where the contents are partially prefetched to the local cache of mobile devices during the off-peak time. The remaining contents are then jointly coded and delivered in multicast, when many content requests are initiated in the peak-traffic time. The requested contents can be recovered from the local-prefetched and multicast data with requesters experiencing less congestions. However, the benefit of the coded caching scheme is still under estimated, where the potential gain by appropriate caching distribution is under exploited. In this paper, we propose a theoretical model to minimize the average wireless traffic volume required in the coded caching, for which the optimized caching distribution is derived with the content popularity distribution taken into account. In order to improve the computational efficiency for determining the 
+# propriate caching distribution, we transform the objective function from the average wireless traffic volume into the average size of un-prefetched contents. We theoretically show the order optimality of the results derived from our model. Simulation results show that the coded caching performance can be further improved with our caching distribution design.
+- author: Sinong Wang, Muhan Zhang, Xiaowen Li, Xiaohua Tian and Xinbing Wang
+  image: weroom.png
+  url: /publication/slides/SRH-ICIMCS14.pdf
+  title: Dynamic Coded Caching for Massive Content Distribution over Wireless Networks
+  role: Under review
+  year: 2015, under review
+  pages:
+  publisher: IEEE INFOCOMM
+#  abstract: >
+#    The recently coded caching scheme utilizes distributed memory resources and coded multicast data delivery to mitigate the peak-traffic volume over the shared wireless network link. However, the current codec scheme adopted in the coded caching unrealistically assume that the content popularity is uniformly and statically distributed. A practical coded caching scheme with dynamic content popularity is still unavailable. In this paper, we first present a Lyapunov-stability based analysis to show that the traditional Least Recently Sent codec scheme is equivalent to pre-fetching the most popular contents and inefficient. We then develop a more efficient coded caching mechanism with characteristics of content popularity taken into account, where a nonlinear optimization model is constructed to determine the optimal cache allocation under given content popularity and codec scheme, moreover, a high-order Markov model is constructed to update the local cache based on the excavated user navigation pattern from 
+#    trace-data. Trace-based simulation results show that the proposed mechanism can mitigate the traffic volume in a large time scale compared to traditional coded caching mechanisms.
+
+
+- author: Sinong Wang, Haofeng, Xiaowen Li, Xiaohua Tian and Hui Liu
+  image: weroom.png
+  url: /publication/slides/SRH-ICIMCS14.pdf
+  title: Delay Reduce Traffic in Wireless Caching Network
+  role: Technical Coach / Product Owner
+  year: under review
+  pages:
+  publisher: IEEE Transactions on Vehicular Technology
+#  abstract: >
+#    Approximate nearest neighbor (ANN) search is becoming
+#    an increasingly important technique in large-scale problems.
+#    Recently many approaches have been developed due to fast
+#    query and low storage cost. Although most of them have realized
+#    the importance of the data structure, they neglected
+#    the sparse relationship of the data. To build a balance between
+#    the adjusted covariance matrix and the minimum reconstruction
+#    error of data points, this paper proposes a novel
+#    method based on sparse reconstruction to learn more compact
+#    binary codes under l21-norm constraint. Experiments
+#    demonstrate that the proposed method, named as sparse
+#    reconstruction hashing, outperforms several other state-ofthe-
+#    art methods when tested on a few benchmark datasets.
+
+
+- author: Sinong Wang, Haofeng, Xiaowen Li, Xiaohua Tian and Hui Liu
+  image: weroom.png
+  url: /publication/slides/SRH-ICIMCS14.pdf
+  title: Delay Reduce Traffic in Wireless Caching Network
+  role: Technical Coach / Product Owner
+  year: under review
+  pages:
+  publisher: IEEE Transactions on Vehicular Technology
+#  abstract: >
+#    Approximate nearest neighbor (ANN) search is becoming
+#    an increasingly important technique in large-scale problems.
+#    Recently many approaches have been developed due to fast
+#    query and low storage cost. Although most of them have realized
+#    the importance of the data structure, they neglected
+#    the sparse relationship of the data. To build a balance between
+#    the adjusted covariance matrix and the minimum reconstruction
+#    error of data points, this paper proposes a novel
+#    method based on sparse reconstruction to learn more compact
+#    binary codes under l21-norm constraint. Experiments
+#    demonstrate that the proposed method, named as sparse
+#    reconstruction hashing, outperforms several other state-ofthe-
+#    art methods when tested on a few benchmark datasets.
+
+
