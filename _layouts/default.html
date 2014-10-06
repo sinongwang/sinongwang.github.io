@@ -42,8 +42,8 @@
     <header class="inner">
       <nav>
         <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">About</a>
-        <a  href="/mygroup/">My Group</a>
-        <a  href="/activities/">Activities</a>
+        <a  class="{% if page.category == 'mygroup' %} selected {% endif %}" href="/mygroup/">My Group</a>
+        <a  class="{% if page.category == 'activities' %} selected {% endif %}" href="/activities/">Activities</a>
         <a class="{% if page.category == 'publication' %} selected {% endif %}" href="/publication/">Publication</a>
         <!--<a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Blog</a>-->
         <!--<a class="{% if page.category == 'contact' %} selected {% endif %} contact" href="/contact/">Contact</a>-->
