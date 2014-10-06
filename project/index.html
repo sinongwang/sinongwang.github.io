@@ -6,25 +6,46 @@ category: project
 ---
 
 <p class="fancy">
-  Here are my projects. Some of them are my academy research, some are just my interest.
-  <abbr title="User Experience">UX</abbr>?
-
-  <a href="/contact/">Ping me</a> and let's build awesome and useful stuff!
+  Here are my group. 
 </p>
 
-{% for product in site.data.products %}
+
   <section>
-    <a href="{{ product.url }}">
-      <img class="inline pull-right" src="/images/project/{{ product.image }}"
-           alt="{{ product.name }} Screenshot" width="280">
-    </a>
-    <h2><a href="{{ product.url }}">{{ product.name }}</a></h2>
-    <h3>{{ product.oneliner }}</h3>
-    <p><strong>My role:</strong> {{ product.role }}</p>
-    <p>{{ product.description}}</p>
+    
+      <img class="inline pull-right"   src="/images/project/" rel="shadowbox"  
+           alt="" width="150">
+    
+    <h2><a href="">Xiaowen Li</a></h2>
+    <h3>Hashing Baseline for Image Retrieval</h3>
+    <p>Xiaowen is a senior student in IEEE Pilot Class of Shanghai Jiao Tong University. Her research interest is Wireless Caching Network. </p>
     <p>
-      <strong>Technologies:</strong> {{ product.technologies | join: ", " }}
+      <strong>Contact:</strong>littledanby@gmail.com 
     </p>
   </section>
   <div class="spacer"></div>
-{% endfor %}
+
+     <section>
+    
+      <img class="inline pull-right"   src="/group/xiang.jpg"  rel="shadowbox" 
+           alt="" width="150">
+    
+    <h2><a href="">Xiang Wang</a></h2>
+    <h3>Hashing Baseline for Image Retrieval</h3>
+    <p>Xiang Wang is a senior student in IEEE Pilot Class of Shanghai Jiao Tong University. His research interest includes Information Theory and Wireless Caching Network.</p>
+    <p>
+      <strong>Contact:</strong>369172385@qq.com 
+    </p>
+  </section>
+  <div class="spacer"></div>
+<section>
+    
+      <img class="inline pull-right"  src="/group/xiang.jpg" rel="shadowbox" 
+           alt="" width="150">
+    <h2><a href="">Muhan Zhang</a></h2>
+    <h3>Hashing Baseline for Image Retrieval</h3>
+    <p>Muhan is a senior student in IEEE Pilot Class of Shanghai Jiao Tong University. He is currently researching in National Collaborative Innovation Center of Future Media and Network. His major research direction is Machine Learning (Particularly interested in Transfer Learning and Learning-to-Rank) and Wireless Caching Network. </p>
+    <p>
+      <strong>Contact:</strong>ufo0010@sjtu.edu.cn
+    </p>
+  </section>
+  <div class="spacer"></div>
